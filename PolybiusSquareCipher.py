@@ -13,14 +13,14 @@ def main():
         print("Enter the message you wish to encrypt")
         message = input('Please enter only lowercase letters: ')
         encryption(message)
-        input("Type Enter to return to the menu")
+        input("Press Enter to return to the menu")
         main()
         
     # Decryption mode    
     elif mode == 2:
         message = input('Enter the message you wish to decrypt:\n')
         decryption(message)
-        input("Type Enter to return to the menu")
+        input("Press Enter to return to the menu")
         main()
         
     # How it works     
@@ -36,7 +36,7 @@ def main():
                 4  Q  R  S  T  U
                 5  V  W  X  Y  Z
               """)
-        input("Type Enter to return to the menu")
+        input("Press Enter to return to the menu")
         main()
         
     # Quit
@@ -45,7 +45,7 @@ def main():
         
     else:
         print("Error\n")
-        input("Type Enter to return to the menu")
+        input("Press Enter to return to the menu")
         main()
         
 def encryption(message):
