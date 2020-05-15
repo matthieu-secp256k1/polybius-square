@@ -62,7 +62,7 @@ def encryption(message):
             encrypted = encrypted + ' ' + str(polybius_square[index])
         else:
             print("The letter typed is not in the Polybius Cipher. Please only enter valid letters from the alphabet without spaces or special characters")
-            input("Type enter to return to the menu")
+            input("Press enter to return to the menu")
             main()
             
     print(encrypted)
@@ -82,7 +82,7 @@ def decryption(message):
             decrypted = decrypted + str(alphabet[index])
         else:
             print("The number typed is not in the Polybius Cipher. Please only enter valid numbers from the Polybius cipher with a space between each of them.")
-            input("Type enter to return to the menu")
+            input("Press enter to return to the menu")
             main()  
             
     print(decrypted) 
